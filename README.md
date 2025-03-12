@@ -16,7 +16,7 @@ Proyek ini adalah implementasi **CRUD Book dan Author** menggunakan **GraphQL** 
 - **GraphQL Scalars** Unix Data
 
 ## 📖 **GraphQL Scalar**
-Proyek ini menggunakan **GraphQL Scalar** untuk menangani tipe data khusus seperti Unix Timestamp.  
+Proyek ini menggunakan **GraphQL Scalar** untuk menangani tipe data khusus seperti Long, Timestamp dll.  
 **Dokumentasi resmi GraphQL Scalar:**  
 🔗 [GraphQL Extended Scalars](https://github.com/graphql-java/graphql-java-extended-scalars)  
 
