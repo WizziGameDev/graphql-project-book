@@ -2,7 +2,7 @@ type Book {
     slug: String
     name: String
     page: Int
-    createdAt: Int
+    createdAt: Long
     deleted: Boolean
     author: Author
 }
