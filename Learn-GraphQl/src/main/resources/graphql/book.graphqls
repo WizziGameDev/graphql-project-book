@@ -1,0 +1,26 @@
+type Book {
+    slug: String
+    name: String
+    page: Int
+    createdAt: Int
+    deleted: Boolean
+    author: Author
+}
+
+input BookRequest {
+    slug: String
+    name: String
+    page: Int
+}
+
+
+type Query {
+    books: [Book]
+    bookBySlug(slug: String): Book
+}
+
+type Mutation{
+    createBook(author_slug: String, request: BookRequest): Book
+    updateBook(author_slug: String, book_slug: String, request: BookRequest): Book
+    deleteBook(slug: String): Boolean
+}

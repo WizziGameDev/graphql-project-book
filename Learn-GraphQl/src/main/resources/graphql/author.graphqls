@@ -1,0 +1,26 @@
+type Author {
+    name: String
+    slug: String
+    email: String
+    gender: String
+    createdAt: Int
+    updatedAt: Int
+}
+
+input AuthorRequest {
+    name: String
+    slug: String
+    email: String
+    gender: String
+}
+
+extend type Query {
+    authors: [Author]
+    authorBySlug(slug: String): Author
+}
+
+extend type Mutation {
+    createAuthor(request: AuthorRequest): Author
+    updateAuthor(slug: String, request: AuthorRequest): Author
+    deleteAuthor(slug: String): Boolean
+}
