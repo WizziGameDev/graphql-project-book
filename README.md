@@ -26,11 +26,16 @@ Proyek ini adalah implementasi **CRUD Book dan Author** menggunakan **GraphQL** 
    ```
 4. **Konfigurasi `application.properties`**
    ```properties
-   Sesuaikan saja
+   Sesuaikan konfigurasi yang diinginkan
    ```
-5. **Jalankan aplikasi**
-   
-6. **Akses GraphQL Playground**
+5. **Migration**
+   ``` cmd
+   cd [name-project]
+   mvn flyway:migrate -Dflyway.configFiles=src/main/resources/application.properties -X
+   ```
+7. **Jalankan aplikasi**
+
+8. **Akses GraphQL Playground**
    Buka di browser:
    ```
    http://localhost:1234/graphiql?path=/graphql
