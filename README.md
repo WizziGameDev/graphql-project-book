@@ -15,6 +15,11 @@ Proyek ini adalah implementasi **CRUD Book dan Author** menggunakan **GraphQL** 
 - **Flyway** Migration 🚀
 - **GraphQL Scalars** Unix Data
 
+## 📖 **GraphQL Scalar**
+Proyek ini menggunakan **GraphQL Scalar** untuk menangani tipe data khusus seperti Unix Timestamp.  
+**Dokumentasi resmi GraphQL Scalar:**  
+🔗 [GraphQL Extended Scalars](https://github.com/graphql-java/graphql-java-extended-scalars)  
+
 ## 🚀 Cara Menjalankan Proyek
 1. **Clone repository ini dalam folder**
    ```bash
@@ -42,7 +47,7 @@ Proyek ini adalah implementasi **CRUD Book dan Author** menggunakan **GraphQL** 
    ```
 
 ## 📸 Tampilan
-Menampilkan gambar yang telah ditambahkan:
+Tampilan cara menggunakan query GraphQL:
 
 ![Tampilan View](image/view1.png)
 
